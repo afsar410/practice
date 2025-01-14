@@ -1,6 +1,20 @@
-h1{
-    display: ;
-    text-align: center;
-    color: #fff;
-    background-color: black;
+body {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.main_menu{
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}  
+.main_menu li {
+    display: inline-block;
+}
+h1 {
+    background-color: red;
+    color: black;
 }
