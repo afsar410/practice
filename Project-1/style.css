@@ -2,19 +2,28 @@ body {
     font-family: "Poppins", serif;
     font-weight: 800;
     font-style: normal;
+    margin: 0;
 }
 .main_menu{
-
-}
-ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}  
-.main_menu li {
+    background-color: #8c7ae6;
+    text-align: center;
+    position: relative;
+}
+.main_menu li{
     display: inline-block;
 }
-h1 {
-    background-color: red;
-    color: black;
+.main_menu li a{
+    display: block;
+    padding: 6px 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.main_menu li a:hover{
+    background: #40739e;
+}
+.main_menu ul ul{
+    position: absolute;
 }
