@@ -1,61 +1,19 @@
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #fff;
-}
-#Header_main{
-    width: 100%;
-    background-color: #273c75;
-    color: #fff;
-    display: flex;
-}
-.Navigation_h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35;
-    font-weight: bold;
-    margin-top: 20px; 
-    padding: 10px;
     text-align: center;
 }
-.Dropdown_menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.Dropdown_menu ul{
-    list-style: none;
-   
-}
-.Dropdown_menu ul li{
-    background: #40739e;
-    border: 1px solid #fff;
-    float: left;
-    color: #fff;
-    text-align: center;
-    width: 150px;
-    font-size: 35px;
-    font-weight: bold;
-    position: relative;
-    padding: 20px;
-   
-}
-.Dropdown_menu ul li a{
+a{
+    background: red;
     text-decoration: none;
+}
+a[target~="_self"]{
+    background: yellow;
+}
+a[title~="hello"]{
+    background: #4cd137;
+    
+}
+a[target~="_blank"]{
+    background: #2f3640;
     color: #fff;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-.Dropdown_menu ul li:hover{
-    background: #00a8ff;
-}
-.Dropdown_menu ul ul{
-    display: none;
-    position: absolute;
-    top: 100%;
-}
-.Dropdown_menu ul li:hover > ul{
-    display: block;
+    font-size: 40px;
 }
