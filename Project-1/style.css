@@ -1,0 +1,56 @@
+body{
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.contact{
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 5%;
+    text-align: center;
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.contact p{
+    color: rgb(67, 65, 65);
+}
+.contact form{
+    margin-top: 25px;
+}
+.child_form{
+    width: 100%;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.child_form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.child_form input{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px 3%;
+    width: 94%;
+}
+
+.child_form:last-child{
+    margin-bottom: 0;
+}
+.child_form input[Type='batton']{
+    width: 200px;
+    color: #fff;
+    border: 1px solid blueviolet;
+    background: blueviolet;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.child_form input[Type='batton']:hover{
+    color: #fff;
+    background: black;
+    border: 1px solid black;
+}
