@@ -2,64 +2,28 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-.parant{
-    margin-top: 10px;
-    padding: 10px;
-}
-.child{
-    background: #6D214F;
-    width: 50px;
-    padding-top: 15px;
-    height: 38px;
-    margin-bottom: 8px;
+.header_fist{
+    padding: 15px 0;
     text-align: center;
-    border-radius: 5px;
-    float: left;
-    margin-right: 20px;
+    border-bottom: 1px solid #ddd;
 }
-.child p{
+/* amin_menu */
+.main_menu{
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+.main_menu ul{
     margin: 0;
     padding: 0;
-    color: #fff;
+    list-style: none;   
+    text-align: center;
 }
-
-/* nth-child */
-.child:first-child{
-    background: #2C3A47;
+.main_menu ul li{
+    display: inline-block;
+    margin: 0 8px;
 }
-.child:last-child{
-    background: #F97F51;
-}
-.child:nth-child(5){
-    background: #EAB543;
-}
-.child:nth-child(4){
-    background: #B33771;
-}
-
-/* from style */
-form{
-    margin-top: 25px;
-    margin-left: 10px;
-}
-input[type='text']{
-    border: 1px solid #ddd;
-    padding: 6px 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    float: left;
-}
-input[type='button']{
-    background: #34ace0;
-    border: 1px solid #2c2c54;
-    color: #fff;
-    padding: 6px 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-    transition: 0.3s;
-}
-input:not(:placeholder-shown) + input[type='button']{
-    display: block;
+.main_menu ul li a{
+    color: black;
+    text-decoration: none;
 }
