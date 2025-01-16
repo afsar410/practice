@@ -36,3 +36,30 @@ body{
 .child:nth-child(4){
     background: #B33771;
 }
+
+/* from style */
+form{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+input[type='text']{
+    border: 1px solid #ddd;
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    float: left;
+}
+input[type='button']{
+    background: #34ace0;
+    border: 1px solid #2c2c54;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+input:not(:placeholder-shown) + input[type='button']{
+    display: block;
+}
