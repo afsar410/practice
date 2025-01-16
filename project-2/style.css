@@ -1,0 +1,15 @@
+#test p.para{
+    color: aqua !important;
+}
+#test p.para{
+    color: red;
+}
+.child p.para{
+    color: yellow;
+}
+p.para{
+    color: lawngreen;
+}
+p{
+    color: indigo;
+}
