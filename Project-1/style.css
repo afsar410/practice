@@ -1,29 +1,11 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
-.header_fist{
-    padding: 15px 0;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
-/* amin_menu */
-.main_menu{
-    padding: 10px 0;
-    border-bottom: 2px solid #ddd;
-    text-align: center;
-}
-.main_menu ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;   
-    text-align: center;
-}
-.main_menu ul li{
-    display: inline-block;
-    margin: 0 8px;
-}
-.main_menu ul li a{
-    color: black;
-    text-decoration: none;
+/* #test{
+    background: aqua;
+    width: calc(100% - 200px);
+    margin: 0 auto;
+} */
+#test{
+    background: rgb(145, 159, 159);
+    width: max(70%,700px);
+    width: min(70%,700px);
+    margin: 0 auto;
 }
