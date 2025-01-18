@@ -1,9 +1,8 @@
 :root{
-    --fast: #3c40c6;
+    --fast: #0be881;
     --sec: #1e272e;
-    --thrd: #05c46b;
-    --forth:  #ffa801;
-    --fifth: #34e7e4;
+    --main: #ffdd59;
+    --nice: #D6A2E8;
 }
 *,*::after,*::before{
     box-sizing: border-box;
@@ -11,6 +10,15 @@
 body{
     font-family: serif;
     margin: 0;
+}
+.main{
+    background: var(--main);
+    /* display: flex; */
+    
+}
+.main_manu{
+    display: flex;
+    /* flex-direction: row-reverse; */
 }
 p{
     background-color: var(--fast);
@@ -21,20 +29,10 @@ p{
 h1{
     text-align: center;
     margin-bottom: 0;
-    color: var(--thrd);
+    color: var(--sec);
+    background: var(--fast);
+    margin: 20px;
 }
 .one{
-    background: var(--forth);
-}
-.two{
-    background: var(--fifth);
-}
-.three{
-    background: #ff5e57;
-}
-.for{
-    background: #575fcf;
-}
-.five{
-    background: #05c46b;
+    background: var(--nice);
 }
