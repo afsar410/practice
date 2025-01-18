@@ -1,53 +1,63 @@
+:root{
+    --fast: #1abc9c;
+    --secend: #e67e22;
+    --thred: #9b59b6;
+    --fifth: #f1c40f;
+    --sixs: #2c3e50;
+    --seventh: #d35400;
+    --color: #fff;
+    --color1: #1B1464;
+    --color2: #B53471;
+    --color3: #009432;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.parant{
-    background: #55E6C1;
-    color: #fff;
-    margin: 20px;
-}
-.main_manu{
-    display: grid;
-    /* column-gap: 10px;
-    row-gap: 10px; */
-    grid-template-columns: 40% 60%;
-    /* grid-template-rows: 1fr 2fr; */
-    /* grid-template-columns: repeat(6,300px); */
-    /* justify-content: start;
-    align-content: end; */
+/* .main_area{
+    padding: 20px;
+    background: var(--seventh);
+} */
+.main{
+    height: 135px;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid var(--color3);
+    background: var(--fifth);
+    margin: 10px auto;
 }
 .child{
-    background: #25CCF7;
-    margin: 10px 10px;
-    padding: 10px;
     
-}
-.child:nth-child(1){
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
-    grid-column: 1/2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-row: 1/5;
+    color: var(--color);
+    padding: 10px;
+    border: 1px solid var(--thred);
+    background: var(--fast);
 }
 .child h3{
-    padding: 5px;
+    padding-bottom: 5px;
+    padding-bottom: 6px;
 }
 .child p{
-    padding-bottom: 10px;
-    /* display: none; */
-
+    margin-bottom: 10px;
 }
 .child a{
+    border: 1px solid var(--fifth);
+    background: var(--secend);
+    color: var(--sixs);
+    padding: 6px;
+    border-radius: 20px;
     text-decoration: none;
-    background: black;
-    border: 2px solid #2C3A47;
-    border-radius: 30px;
-    padding: 3px;
-    color: #fff;
 }
-.child:nth-child(2){
-    grid-row-end: 2 / span 2;
+@media all and (min-width:300px) and (max-width:500px){
+    body .child{
+        color: var(--color2);
+        
+    }
+}
+@media all and (orientation:landscape ) and (max-width:400px){
+    body .child{
+        color: var(--color2);
+        background: var(--color3);
+    }
 }
