@@ -1,3 +1,10 @@
+:root{
+    --fast: #3c40c6;
+    --sec: #1e272e;
+    --thrd: #05c46b;
+    --forth:  #ffa801;
+    --fifth: #34e7e4;
+}
 *,*::after,*::before{
     box-sizing: border-box;
 }
@@ -5,103 +12,29 @@ body{
     font-family: serif;
     margin: 0;
 }
-#parant{
-    background: #ffb142;
-    border: 4px solid #cc8e35;
-    width: 100px;
-    height: 100px;
-    margin-top: 28px;
-    margin-left: 15px;
-    transition: 0.5s;
-    animation-name: larning;
-    animation-duration: 10s;
-    animation-delay: 2S;
-    animation-iteration-count: infinite;
+p{
+    background-color: var(--fast);
+    margin: 20px ;
+    padding: 15px;
+    border: 2px solid var(--sec);
 }
-/* @keyframes larning {
-    from{
-        background: #ef5777;
-        width: 100px;
-        height: 100px;
-    }
-    to{
-        background: #1e272e;
-        width: 500px;
-        height: 500px;
-    }
-} */
-@keyframes larning {
-    0%{
-        background: #ef5777;
-        width: 100px;
-        height: 100px;
-    }
-    25%{
-        background: #ffa801;
-        width: 150px;
-        height: 150px;
-    }
-    50%{
-        background: #1e272e;
-        width: 500px;
-        height: 500px;
-    }
-    75%{
-        background: #d2dae2;
-        height: 300PX;
-        width: 300PX;
-    }
-    100%{
-        background: #0fbcf9;
-        width: 200px;
-        height: 200px;
-    }
-}
-.parent{
-    position: relative;
-    width: 400px;
-    height: 400px;
-    left: 30px;
-    padding: 10px;
+h1{
+    text-align: center;
+    margin-bottom: 0;
+    color: var(--thrd);
 }
 .one{
-    background: #f53b57;
-    border: 3px solid #ff3f34;
-    width: 100px; 
-    height: 100px;
-    margin:20px;
-    border-radius: 50px;
-    position: absolute;
-    animation-name: roteat_rr;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-
+    background: var(--forth);
 }
-@keyframes roteat_rr{
-    0%{
-        left: 0;
-        right: 0;
-    }
-    20%{
-        left: 300px;
-        top: 0;
-    }
-    40%{
-        left: 300px;
-        top: 300px;
-    }
-    60%{
-        left: 0;
-
-        top: 300px;
-
-    }
-    75%{
-        left: 0;
-        top: 300px;
-    }
-    100%{
-        left: 0;
-        top: 0px;
-    }
+.two{
+    background: var(--fifth);
+}
+.three{
+    background: #ff5e57;
+}
+.for{
+    background: #575fcf;
+}
+.five{
+    background: #05c46b;
 }
