@@ -24,12 +24,18 @@
     padding: 10px;
     
 }
+.child:nth-child(1){
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-row: 1/5;
+}
 .child h3{
     padding: 5px;
 }
-.child:nth-child(4) p,
-.child:nth-child() p,
-.child:nth-child(4) p{
+.child p{
     padding-bottom: 10px;
     /* display: none; */
 
@@ -41,4 +47,7 @@
     border-radius: 30px;
     padding: 3px;
     color: #fff;
+}
+.child:nth-child(2){
+    grid-row-end: 2 / span 2;
 }
