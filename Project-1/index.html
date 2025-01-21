@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>মোলানপুকুর মাদ্রাসা</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  <form>
-     <input type="radio" id="html" name="fav_language" value="HTML">
-     <label for="html">HTML</label><br>
-     <input type="radio" id="css" name="fav_language" value="CSS">
-     <label for="css">CSS</label><br>
-     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-     <label for="javascript">JavaScript</label>
-    </form> 
+    <header>
+        <div class="container">
+            <h1>মোলানপুকুর মাদ্রাসা</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">আমাদের সম্পর্কে</a></li>
+                    <li><a href="#programs">শিক্ষা কার্যক্রম</a></li>
+                    <li><a href="#gallery">গ্যালারি</a></li>
+                    <li><a href="#contact">যোগাযোগ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>আমাদের সম্পর্কে</h2>
+            <p>মোলানপুকুর মাদ্রাসা একটি ঐতিহ্যবাহী শিক্ষা প্রতিষ্ঠান, যেখানে আধুনিক ও ধর্মীয় শিক্ষার সমন্বয় ঘটে।</p>
+        </div>
+    </section>
+
+    <section id="programs">
+        <div class="container">
+            <h2>শিক্ষা কার্যক্রম</h2>
+            <ul>
+                <li>হাফেজি বিভাগ</li>
+                <li>কিতাব বিভাগ</li>
+                <li>নাজেরা বিভাগ</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>গ্যালারি</h2>
+            <div class="gallery-grid">
+                <img src="im.jpg" alt="ছবি ১">
+                <img src="pexels-1.jpg" alt="ছবি ২">
+                <img src="pexels.jpg" alt="ছবি ৩">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>যোগাযোগ করুন</h2>
+            <form>
+                <label for="name">নাম:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">ইমেইল:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">বার্তা:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">পাঠান</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© ২০২৫ মোলানপুকুর মাদ্রাসা</p>
+        </div>
+    </footer>
 </body>
 </html>
