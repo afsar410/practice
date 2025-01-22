@@ -1,8 +1,6 @@
-p::first-line{
-    color: mediumorchid;
-    font-variant: small-caps;
-}
-p::first-letter {
-    color: #ff0000;
-    font-size: xx-large;
+img {
+    opacity: 0.5;
+  }
+  img:hover {
+    opacity: 1.0;
   }
