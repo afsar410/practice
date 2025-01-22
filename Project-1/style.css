@@ -1,11 +1,8 @@
-p{
-    display: none;
-    background-color: black;
-    color: white;
-    padding: 20px;
+p::first-line{
+    color: mediumorchid;
+    font-variant: small-caps;
 }
-div:hover p{
-    display: block;
-    border-radius: 10px;
-    text-align: center;
-}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
