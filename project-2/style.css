@@ -1,18 +1,53 @@
-.tometo{
-    height: 75px;
-    width: 100%;
-    background-color: #6ab04c;
-    position: sticky;
-    top: 10px;
-    /* left: 0; */
+body{
+    font-family: "Poppins", serif;
+    margin: 0;
 }
-.tometo h1{
-    font-family: Arial, Helvetica, sans-serif;
+.main_manu{
+    background: #5758BB;
+}
+.main_manu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
     text-align: center;
-    padding-top: 20px;
-    
 }
-p{
-    text-indent: 100px;
-    margin-top: 0;
+.main_manu li{
+    display: inline-block;
+    position: relative;
+}
+.main_manu li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 12px;
+    color: #fff;
+}
+.main_manu li a:hover{
+    background: #006266;
+}
+
+.main_manu ul ul{
+    position: absolute;
+    background: #57606f;
+    left: 0;
+    top: 44px;
+    width: 200px;
+    display: none;
+}
+.main_manu ul ul li{
+    display: block;
+}
+.main_manu ul ul li a:hover{
+    background: #747d8c;
+}
+.main_manu ul li:hover ul{
+    display: block;
+}
+/* .main_manu ul li:hover a{
+    background: #5758BB;
+} */
+/* .main_manu ul li:hover li a{
+    background: #747d8c;
+} */
+.main_manu ul ul li a:hover{
+    background: #a4b0be;
 }
