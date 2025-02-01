@@ -1,53 +1,14 @@
-body{
-    font-family: "Poppins", serif;
-    margin: 0;
-}
-.main_manu{
-    background: #5758BB;
-}
-.main_manu ul{
+*{
     margin: 0;
     padding: 0;
-    list-style: none;
+}
+h1{
+    background: #ecf0f1;
+    border: 1px solid #bdc3c7;
     text-align: center;
+    margin-bottom: 10px;
+    padding: 8px 12px;
 }
-.main_manu li{
-    display: inline-block;
-    position: relative;
-}
-.main_manu li a{
-    display: block;
-    text-decoration: none;
-    padding: 10px 12px;
-    color: #fff;
-}
-.main_manu li a:hover{
-    background: #006266;
-}
-
-.main_manu ul ul{
-    position: absolute;
-    background: #57606f;
-    left: 0;
-    top: 44px;
-    width: 200px;
-    display: none;
-}
-.main_manu ul ul li{
-    display: block;
-}
-.main_manu ul ul li a:hover{
-    background: #747d8c;
-}
-.main_manu ul li:hover ul{
-    display: block;
-}
-/* .main_manu ul li:hover a{
-    background: #5758BB;
-} */
-/* .main_manu ul li:hover li a{
-    background: #747d8c;
-} */
-.main_manu ul ul li a:hover{
-    background: #a4b0be;
+#navbar{
+    background: #95a5a6;
 }
