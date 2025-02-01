@@ -12,3 +12,18 @@ h1{
 #navbar{
     background: #95a5a6;
 }
+#navbar ul{
+    text-align: center;
+    padding: 10px;
+}
+#navbar ul li{
+    display: inline;
+    /* text-align: center; */
+    margin: 0 12px;
+
+}
+#navbar li a{
+    font-size: 14px;
+    padding: 10px 12px;
+    text-decoration: none;
+}
