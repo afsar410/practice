@@ -1,38 +1,45 @@
-*{
-
-    margin: 0;
-    padding: 0;
-}
-body{
-    background: #ffffff
+body {
+    font-family: Arial, sans-serif;
 }
 
-#Nav_1 ul{
-    list-style-type: none;
-    display: flex;
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
 }
-#Nav_1 ul li{
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+.project {
+    width: 200px; /* Square dimensions */
+    height: 200px;
+    border: 1px solid #ccc;
     margin: 10px;
-}
-#Nav_1 ul li a{
+    display: inline-block; /* Aligns the containers side by side */
     text-align: center;
-    text-decoration: none;
+    line-height: 200px; /* Vertically centers the text */
 }
-.image_1{
+
+h1, h2 {
+    color: #333;
+}
+
+#bio, #work {
+    background-color: #e9e9e9;
+    padding: 15px;
+}
+
+footer {
+    background-color: #f4f4f4;
     text-align: center;
-    padding: 20px;
-}
-input{
-    width: 60%;
-    float: none;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 20px;
-    background: #dfe4ea;
-    border-radius: 20px;
-    border: 1px solid #dfe4ea;
-    cursor: pointer;
-}
-input:hover{
-    background: #dfe4ea;
+    padding: 10px;
 }
