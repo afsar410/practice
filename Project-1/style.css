@@ -1,15 +1,25 @@
 body{
     font-family: "Poppins", serif;
-    font-weight: 800;
+    font-weight: 400;
     font-style: normal;
 }
 
-div p{
-    padding: 5px 5px ;
-    height: 200px;
-    width: 200px;
-    border: 2px solid #1B1464;
-    background: #FDA7DF;
-    color: #ffffff;
-    overflow: scroll;
+.div1{
+    float: left;
+    padding: 5px;
+    border: 2px solid #7bed9f;
+}
+.div2{
+    padding: 15px;
+    border: 2px solid #ff4757;
+}
+.div3{
+    float: left;
+    padding: 5px;
+    border: 2px solid #7bed9f;
+}
+.div4{
+    clear: left;
+    padding: 15px;
+    border: 2px solid #ff4757;
 }
