@@ -6,14 +6,17 @@ body{
 p.a {
     text-align-last: right;
     text-transform: uppercase;
+    line-height: 40px;
   }
   
   p.b {
     text-align-last: center;
     text-transform: lowercase;
+    letter-spacing: 5px;
   }
   
   p.c {
     text-align-last: justify;
     text-transform: capitalize;
+    word-spacing: 30px;
   }
