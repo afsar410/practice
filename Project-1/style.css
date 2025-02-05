@@ -2,10 +2,12 @@ body{
     font-family: "Poppins", serif;
     font-weight: 800;
     font-style: normal;
+    background: #95a5a6;
 }
 
 h1{
-    text-shadow: -2px 3px 3px #311010, -2px -3px 5px #0c0c92;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 h2{
