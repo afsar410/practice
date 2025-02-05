@@ -4,22 +4,16 @@ body{
     font-style: normal;
 }
 
-.div1{
-    float: left;
-    padding: 5px;
-    border: 2px solid #7bed9f;
+div{
+    border: 5px solid #1e90ff;
+    padding: 10px;
 }
-.div2{
-    padding: 15px;
-    border: 2px solid #ff4757;
+.img1{
+    float: right;
 }
-.div3{
-    float: left;
-    padding: 5px;
-    border: 2px solid #7bed9f;
+.img2{
+    float: right;
 }
-.div4{
-    clear: left;
-    padding: 15px;
-    border: 2px solid #ff4757;
+.clearfix{
+    overflow: auto;
 }
