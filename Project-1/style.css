@@ -2,34 +2,14 @@ body{
     font-family: "Poppins", serif;
     font-weight: 800;
     font-style: normal;
-    margin-top: 30%;
-    margin-left: 30%;
 }
-.main{
-    position: relative;
-}
-.div2{
-    position: relative;
-    width: 300px;
-    height: 100px;
-    border: 2px solid rebeccapurple;
-    z-index: 5;
-}
-.div4{
-    position: absolute;
-    top: 20px;
-    left: 0;
+
+div p{
+    padding: 5px 5px ;
+    height: 200px;
     width: 200px;
-    height: 70px;
-    background: #6F1E51;
-    z-index: 3;
-}
-.div6{
-    position: absolute;
-    top: 0;
-    right: 300px;
-    width: 200px;
-    height: 70px;
-    background: #009432;
-    z-index: 4;
+    border: 2px solid #1B1464;
+    background: #FDA7DF;
+    color: #ffffff;
+    overflow: scroll;
 }
