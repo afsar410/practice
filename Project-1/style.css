@@ -5,12 +5,15 @@ body{
 }
 p.a {
     text-align-last: right;
+    text-transform: uppercase;
   }
   
   p.b {
     text-align-last: center;
+    text-transform: lowercase;
   }
   
   p.c {
     text-align-last: justify;
+    text-transform: capitalize;
   }
