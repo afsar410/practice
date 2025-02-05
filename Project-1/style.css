@@ -1,19 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-div{
-    border: 5px solid #1e90ff;
-    padding: 10px;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #57606f;
 }
-.img1{
-    float: right;
+ul li{
+    float: left;
 }
-.img2{
-    float: right;
+ul a{
+    display: inline-block;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: white;
 }
-.clearfix{
-    overflow: auto;
+a:hover{
+    background: #2f3542;
+}
+.activ{
+    background-color: red;
 }
