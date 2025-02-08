@@ -1,4 +1,6 @@
-*{
+/* *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -7,32 +9,12 @@ body{
     font-style: normal;
     background: white;
     margin: 0;
-}
-
-.Header{
-    margin: 10px;
-    padding: 10px;
-    background-color: aliceblue;
-    text-align: center;
-}
-.navebar{
-    overflow: hidden;
-    background-color: #333;
-}
-.navebar ul{
-    
-}
-.navebar li{
-    margin: 29px;
-    padding: 30px;
-    display: inline;
-    text-align: center;
-}
-.navebar li a{
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
-    color: #ddd;
-}
+} */
+.grad1 {
+    height: 150px;
+    width: 200px;
+     /* For browsers that do not support gradients */
+    background-color: red;
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+    border-radius: 50%;
+}  
