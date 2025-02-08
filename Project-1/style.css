@@ -10,11 +10,3 @@ body{
     background: white;
     margin: 0;
 } */
-.grad1 {
-    height: 150px;
-    width: 200px;
-     /* For browsers that do not support gradients */
-    background-color: red;
-    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
-    border-radius: 50%;
-}  
