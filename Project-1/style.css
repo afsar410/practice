@@ -1,4 +1,4 @@
-#about,.about_info{
+/* #about,.about_info{
     font-weight: 20px;
     background-color: red;
     padding: 20px;
@@ -13,4 +13,19 @@
     color: #fff;
     border-radius: 20px;
     box-shadow: yellow;
+} */
+#test p.para{
+    color: aqua !important;
+}
+#test p.para{
+    color: red;
+}
+.child p.para{
+    color: yellow;
+}
+p.para{
+    color: lawngreen;
+}
+p{
+    color: indigo;
 }
