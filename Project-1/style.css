@@ -1,4 +1,4 @@
-.about_info{
+#about,.about_info{
     font-weight: 20px;
     background-color: red;
     padding: 20px;
@@ -6,4 +6,11 @@
     border: 5px solid lawngreen;
     outline: 3px solid rebeccapurple;
     outline-offset: 3px;
+}
+.about_info:hover{
+    background: #389568;
+    border: #4397;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: yellow;
 }
