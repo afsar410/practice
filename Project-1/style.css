@@ -1,4 +1,7 @@
 i{
-    background-color: red;
+    background-color: rgb(206, 136, 136);
     color: yellow;
+    border: 1px solid orangered ;
+    padding: 10px;
+    
 }
